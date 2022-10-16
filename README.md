@@ -10,4 +10,4 @@ Tarefa realizada para a matéria de Desenvolvimento de aplicações corporativas
 
 ## Link do aplicativo no Heroku:
 
-### https://uff-00-heroku.herokuapp.com/
+### https://tcc00340-gabrielfvieira-01.herokuapp.com/
