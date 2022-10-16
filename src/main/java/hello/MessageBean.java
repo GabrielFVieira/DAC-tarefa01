@@ -110,7 +110,7 @@ public class MessageBean implements Serializable {
 		case "en":
 			return "Good night";
 		case "de":
-			return "Gute Nacht";
+			return "Guten Abend";
 		case "fr":
 			return "Bonsoir";
 		}
