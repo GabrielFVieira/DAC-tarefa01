@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>Demo HelloWorld (com JSP)</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <header style="width: 100%; background-color: #ccc; text-align: center;">
+    	<h3>Tarefa 01: Hello World no Heroku - TCC00340</h3>
+    </header>
     <body>
         <h1>Preencha o formulário:</h1>
-           <form action="sayhello.jsp" method="post">
+        <form action="sayhello.jsp" method="post" style="margin-bottom:2rem">
            <br>Idioma preferido: <input type="radio" name="lang" value="pt" checked> Português
            <input type="radio" name="lang" value="en"> Inglês
            <input type="radio" name="lang" value="fr"> Francês
@@ -20,6 +18,8 @@ and open the template in the editor.
            Nome: <input type="text" name="nome"/><br><br>
            <input type="submit" value="Cumprimentar"/>
         </form>
-
     </body>
+    <footer style="position: fixed; left: 0; bottom: 0; width: 100%; background-color: #ccc; text-align: center; padding: 3px">
+    	Gabriel Figueiredo Vieira - Universidade Federal Fluminense - 2022
+    </footer>
 </html>
